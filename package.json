@@ -1,0 +1,25 @@
+{
+  "name": "hng_task1",
+  "version": "1.0.0",
+  "description": "First hng11 task",
+  "main": "server.js",
+   "scripts": {
+    "start": "node server.js",
+    "server": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/maduabuchicharles50/HNG_TASK1"
+  },
+  "keywords": [
+    "nodejs",
+    "backend",
+    "web",
+    "server"
+  ],
+  "author": "Charles Mbonu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
