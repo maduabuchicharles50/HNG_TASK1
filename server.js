@@ -3,7 +3,7 @@ const app = express();
 
 const port = 4000;
 
-app.get("/api/", (req, res) => {
+app.get("/api", (req, res) => {
   res.send("Hello, Mark!, the temperature is 11 degrees Celcius in New York");
 });
 
